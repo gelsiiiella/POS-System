@@ -17,7 +17,6 @@ return new class extends Migration
             $table->id('admin');
             $table->string('username');
             $table->string('password');
-            $table->timestamps();
         });
     }
 

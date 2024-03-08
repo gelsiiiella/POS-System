@@ -5,12 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Employee extends Model
+class MainScreen extends Model
 {
     use HasFactory;
+
     protected $fillable = [
-         'id',
-         'name',
-         'employee_code'
+        'summary_id',
+        'product_id',
+        'product_expense',
+        'product_sold'
     ];
 }

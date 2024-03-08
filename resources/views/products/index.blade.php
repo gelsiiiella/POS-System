@@ -9,8 +9,9 @@
     <h1>List of Products</h1>
 
     <ul>
-        @foreach($product as $product)
-            <li>{{ $product->name }} - ${{ $product->price }} </li>
-</ul>
+        <?php foreach ($product as $product): ?>
+        <li> {{$product->product_name}}-${{$product->product_price}}</li>
+        <?php endforeach; ?>
+    </ul>
 </body>
 </html>

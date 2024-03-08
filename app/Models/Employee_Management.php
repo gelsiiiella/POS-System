@@ -10,8 +10,9 @@ class Employee_Management extends Model
     use HasFactory;
     protected $fillable = [
         'employee_id',
-        'employee_code',
-        'username',
-        'password'
+        'employee_name',
+        'employee_username',
+        'employee_password',
+        'employee_image'
     ];
 }
