@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('product_name');
             $table->decimal('product_price');
             $table->string('product_status');
-            $table->binary('product_image');
+            $table->string('product_image');
             $table->timestamp('purchase_time');
     });
 }

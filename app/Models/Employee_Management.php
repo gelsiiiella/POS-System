@@ -7,7 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Employee_Management extends Model
 {
+    public $table = 'employee_management';
+    protected $primaryKey = 'employee_id';
     use HasFactory;
+    public $timestamps = false;
     protected $fillable = [
         'employee_id',
         'employee_name',

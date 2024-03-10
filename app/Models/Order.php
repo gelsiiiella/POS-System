@@ -10,9 +10,9 @@ class MainScreen extends Model
     use HasFactory;
 
     protected $fillable = [
-        'summary_id',
+        'order_id',
         'product_id',
         'product_expense',
-        'product_sold'
+        'order_date'
     ];
 }
